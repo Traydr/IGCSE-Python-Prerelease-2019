@@ -1,5 +1,8 @@
 # IGCSE-Python-Prerelease-2019
-This is my original work, for when I was taking the exam. It does not represent how I currently name variables or structure my coding. It was fun for me to look back and see how far i've progressed in the 2 years since this code was last accessed.
+This was my implementation of the CIE (Cambridge Intenational Education) prerelease (Time zone 2). This was when made when I was seriously getting into python / programming. I have tremendously improved since then in both how I structure programs and my programming styles.
 
-Anyway this is the prerelease for the 2nd time zone (if im not mistaked) for the Cambridge International Education (CIE) exam board.
-Might update it slightly to make my organisation focused brain calmed down.
+## How to run
+On linux type `python3 /path/to/file/Python_IGCSE_PreRelease_2019.py` or `python3 ./Python_IGCSE_PreRelease_2019.py` into the terminal.
+
+## TODO
+- [] Redo this python program
