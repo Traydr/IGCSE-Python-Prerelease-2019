@@ -1,4 +1,3 @@
-# Created by Titas Lukaitis
 itemNum = [0, 1, 10, 11, 100, 101, 110, 111, 1000, 1001]
 itemNumDesc = ["lamp", "monitor", "desk", "laptop", "phone", "mouse", "keyboard", "microphone", "earphones",
                "headphones"]
@@ -116,5 +115,4 @@ def auction_end():
     print(isItemSold.count('is not'), "item(s) did not reach their reserve price")
 
 
-# Created by Titas Lukaitis
 buyer_view()
