@@ -14,12 +14,14 @@ tempVar = 0
 
 
 def buyer_view():
-    viewitem = int(input("Which item would you like to view (write the itemnum)"))
+    viewitem = int(
+        input("Which item would you like to view (write the itemnum)"))
     listitem = itemNum.index(viewitem)
     print("The description of", viewitem, "is", itemNumDesc[listitem])
     print("The reserve price of", viewitem, "is $", itemReservePrice[listitem])
     print("There are currently", numOfBids[listitem], "bid(s) on ", viewitem)
-    print("The current highest bid of", viewitem, "is $", currentMaxBid[listitem])
+    print("The current highest bid of", viewitem,
+          "is $", currentMaxBid[listitem])
     buyer_view_again()
 
 
@@ -48,7 +50,8 @@ def buyer_bid_temp():
 
 def buyer_bid():
     global finalBid
-    biditemtemp = int(input("Which item would you like to bid on (write itemnum)"))
+    biditemtemp = int(
+        input("Which item would you like to bid on (write itemnum)"))
     biditemnumtemp = itemNum.index(biditemtemp)
     buyeridtemp = input("What is your buyer id")
     biditemamount = input("How much would you like to bid on the item")
@@ -90,7 +93,8 @@ def auction_end():
     itemnumcounter = 0
     totalfeetemp = 0
     for i in range(0, 10):
-        print("Item", itemNum[itemnumcounter], isItemSold[itemnumcounter], "SOLD!")
+        print("Item", itemNum[itemnumcounter],
+              isItemSold[itemnumcounter], "SOLD!")
         totalfeetemp += int(currentMaxBid[itemnumcounter])
         totalFee += totalfeetemp
         itemnumcounter += 1
